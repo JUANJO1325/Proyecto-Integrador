@@ -1,0 +1,147 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-green);
+  padding: 15px 30px;
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  max-height: 50px;
+}
+
+.navbar__menu-button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.navbar__search {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0 30px;
+}
+
+.navbar__search-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 7px 0 0 7px;
+  border: none;
+}
+
+.navbar__search-button {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 0 7px 7px 0;
+  border: none;
+  background-color: var(--dark-grey);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__link {
+  margin-left: 30px;
+  color: var(--black);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar__link:hover {
+  text-decoration: underline;
+}
+
+.initial-banner__content {
+  display: flex;
+  align-items: center;
+  padding: 70px 0;
+  gap: 140px;
+}
+
+.initial-banner__image h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105.23%;
+}
+
+.initial-banner__paragraph p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.23%;
+}
+
+.banner-points {
+  display: flex;
+  background-color: var(--light-green);
+  gap: 15px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.banner-points h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 105.23%;
+}
+
+.feature__content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.feature-box {
+  background-color: var(--light-green);
+  border-radius: 15px;
+  width: 50%;
+  padding: 21px;
+  text-align: center;
+}
+
+.feature-box p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 105.23%;
+}
+
+.feature-start {
+  width: 50%;
+  text-align: center;
+  align-self: center;
+  background-color: var(--dark-grey);
+  width: 35%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.feature-start:hover{
+  opacity: 90%;
+}
+
+.feature-start a {
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--black);
+}

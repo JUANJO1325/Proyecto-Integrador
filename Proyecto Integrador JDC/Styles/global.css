@@ -1,0 +1,25 @@
+.wrap {
+    margin: auto;
+    max-width: 1200px;
+    width: calc(100% - 40px);
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+*{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-green:#9EC33E;
+    --dark-green: #33843f;
+    --dark-grey: #2F2F2F;
+  }
+
